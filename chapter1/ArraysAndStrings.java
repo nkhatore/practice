@@ -6,7 +6,7 @@ import java.util.Arrays;
  */
 public class ArraysAndStrings {
 
-    /** O(n) ,using HashSet **/
+    /** O(n) using HashSet **/
     private static Boolean isUnique(String s) {
         HashSet<Character> h = new HashSet<>();
         for (char c : s.toCharArray()) {
